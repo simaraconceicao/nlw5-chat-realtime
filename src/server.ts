@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     });
 });
 
-app.post("/", (req, res) => {
+app.post("/users", (req, res) => {
     return res.json({
         message: "Usuário salvo com sucesso!"
     });
